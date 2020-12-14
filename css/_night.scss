@@ -1,0 +1,302 @@
+@import'vars';
+@import'colors';
+
+
+/************************************************ start aside **********************/
+aside{
+    background:$sun_background;
+    .bar{/* icon bar */
+        cursor: pointer;
+        color:#999;
+    }
+    .cont_img{
+        .overlay{
+            background:none;
+        }
+    }
+    h2{
+        color:#222;
+    }
+    .info{
+        background:$info_background;
+        .list{/* main menus */
+            li{
+                border-top:1px solid $sun_border;
+                i{
+                    color:$OfWhite;
+                    background: $sun_icon;
+                }
+                a{
+                    color:#222;
+                }
+                &:nth-of-type(7){
+                    border-bottom:1px solid $sun_border;
+                }
+            }
+        }
+        .social{/* start social media */
+            li{
+                a{
+                    i{
+                        color:#222;
+                        background: $sun_background;
+                        &:hover{
+                            background: #8888;
+                            box-shadow: 0 0 20px 2px #222;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+/************************************************ end aside **********************/
+
+
+
+
+/************************************************ start vav bar **********************/
+nav{
+    background:$info_background;
+    .bar_nav{
+        color:#222;
+    }
+    .info{
+        .list_nav{
+            border-top:1px solid $info_background;
+            background:$info_background;
+            li{
+                    border-top:1px solid $sun_border;
+                &:hover{
+                    background:linear-gradient(180deg,rgb(190, 188, 188),#f1f1f1);
+                }
+                a{
+                    color:#222;
+                }
+            }
+        }
+    }
+}
+/************************************************ end nav bar  **********************/
+
+
+
+
+/************************************************ start header **********************/
+header{
+    border-left: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    .control{
+        background:$info_background;
+    }
+    .overlay{
+        background:rgba( 0,0,0,.3);
+    }
+}
+
+/************************************************ end header  **********************/
+
+
+
+
+
+/************************************************ start about me  **********************/
+.about_me{
+    background: $white_background;
+    .description{ /* start the description of about me */
+        color:$black_pragraph;
+    }
+    .info{
+        color:#222;
+        .item{
+            i{
+                color:#222;
+                background: $sun_background;
+                box-shadow: -1px -2px 5px -3px #999;
+            }
+            span{
+                color:$sun_color;
+            }
+        }
+    }
+}
+/******************************************** end about me   **********************/
+
+
+
+
+/************************************************ start  my services **************/
+.services{
+    background: $white_background;
+    .item{
+        color:#222;
+        i{
+            color:#222;
+            background: $sun_background;
+            box-shadow: -1px -2px 5px -3px #999;
+        }
+        p{
+            color:$black_pragraph;
+        }
+    }
+}
+/************************************************ end my services ******************/
+
+
+
+
+
+
+/************************************************ start  my resume **************/
+.resume{
+    background:$white_background;
+    .big_titel{
+        color:#222;
+    }
+    .item{
+        color:#222;
+        .year{
+            color:#222;
+        }
+        .cont_info{
+            .small_title{
+                color:#222;
+            }
+            .info{
+                p{
+                    color:$black_pragraph;
+                }
+            }
+        }
+    }
+    .skills{ /********* start my skills **********/
+        margin-top:80px;
+        ul{ 
+                .progres{
+                    background:$para_color;
+                    .title{
+                        background:$OfWhite;
+                        color:#999;
+                    }
+                }
+            }
+        }
+    }
+
+/************************************************ end my resume ******************/
+
+
+
+/************************************************ start my portfolio  ******************/
+.portfolio{
+    background:$white_background;
+    .item{
+        .cont_img{
+            .overlay{
+                background:rgba(0,0,0,.3);
+            }
+        }
+    }
+}
+/************************************************ end my portfolio ******************/
+
+
+
+
+
+/************************************************ start my blogs  ******************/
+.blogs{
+    background:$white_background;
+    #owl-demo .item{
+        border:1px solid $info_background;
+        background:$info_background;
+        p{
+            color:$black_pragraph;
+            background:$info_background;
+        }
+        h3{
+            background:$info_background;
+            color:#222;
+        }
+        .overlay{
+            background:rgba(0,0,0,.3);;
+        }
+    }
+}
+/************************************************ end my blogs ******************/
+
+
+
+
+
+/************************************************ start contact us ******************/
+.contact{
+    background:$white_background;
+    .get_in{
+        color:#222;
+    }
+    .call_us{
+        background:$info_background;
+        i{
+            color:#555;
+        }
+        h6{
+            color:#222;
+        }
+        span{
+            color:#555;
+        }
+    }
+
+        /* stat contact form */
+    .cont_title{
+        color:#222;
+    }
+    .contact_form{
+        input,textarea{
+            background: $info_background;
+            color:#000;
+            -webkit-box-shadow:10px 5px 12px 0px #0000008c;
+            -moz-box-shadow:10px 5px 12px 0px #0000008c;
+            -ms-box-shadow:10px 5px 12px 0px #0000008c;
+            -o-box-shadow:10px 5px 12px 0px #0000008c;
+            box-shadow:10px 5px 12px 0px #0000008c;
+            &:hover{
+                background:linear-gradient(180deg,#cecece,#EEE);
+            }
+        }
+        input[type='button']{
+            color:#111;
+            &:hover{
+                background: rgb(209, 205, 205);
+                box-shadow: 0 0 20px 2px #222;
+            }
+        }
+    }
+    
+}
+/************************************************ end contact us ******************/
+
+
+
+
+/************************************************ start footer ******************/
+footer{
+    background:$info_background;
+    .copy{ 
+        color:#222;
+    }
+}
+/************************************************ start footer ******************/
+
+
+
+/************* start my fram work ******************/
+.h1{
+    color:$black_title;
+}
+.border_between_sections{
+    border-left:1px solid #eee;
+    border-bottom: 1px solid #eeee;
+}
+/************* end  my fram work ******************/
